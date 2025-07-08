@@ -1,0 +1,141 @@
+/* TNA Buy Now Page Design */
+
+div.buynow-content {
+    width: 100%;
+}
+p.buynow-title {
+    font-weight: 200;
+    font-style: normal;
+    font-size: 31px !important;
+    text-align: left;
+    padding: 6% 0% 1% 0%;
+    box-sizing: border-box;
+    width: 100%;
+}
+div.buynow-border {
+    border-bottom: 1px solid rgba(217, 217, 217, 1);
+}
+.formBlock {
+    background-color: rgba(245, 245, 245, 1) !important;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(217, 217, 217, 1);
+    border-radius: 5px;
+    box-shadow: none;
+    text-align: left;
+    padding: 2% 2% 2% 3%;
+    width: 70%;
+}
+.formBlock p,
+.formBlock div {
+    background-color: rgba(245, 245, 245, 1) !important;
+}
+.buynow-textbox {
+    background-color: rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(19, 115, 235, 1);
+    border-radius: 3px;
+    box-shadow: none;
+    font-style: normal;
+    background: revert;
+}
+.buynow-name,
+.buynow-phone,
+.buynow-email {
+    width: 328px;
+    height: 40px;
+}
+.buynow-address {
+    width: 328px;
+    height: 100px;
+}
+.buynow-message {
+    height: 40px;
+    width: 66%;
+}
+.purchaseDetails {
+    margin: 0 0 20px 0;
+    padding: 0px 0px 20px 0px;
+    border: 0px;
+    border-bottom: 1px solid rgba(220, 220, 220, 1);
+}
+.error {
+    background: #f5e5e5;
+    color: #870600;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    font-weight: bold;
+    border: 1px solid #DFCFD0;
+}
+.success {
+    background: rgba(5, 115, 235, 1);
+    color: #ffffff;
+    /*height: 40px;*/
+    line-height: 40px;
+    padding-left: 20px;
+    font-weight: bold;
+    border: 10px solid rgba(5, 115, 235, 1);
+}
+.buynow-form {
+    padding-top: 4%;
+}
+.row {
+    display: flex;
+    padding-bottom: 2%;
+}
+.searchCol1 {
+    width: 25%;
+    padding-top: 7px;
+}
+.searchCol2 {
+    width: 75%;
+}
+.searchCol3 {
+    width: 100%;
+}
+
+.buynow-submit {
+    width: 218px;
+    height: 42px;
+    background-color: rgba(19, 115, 235, 1);
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.buynow-cancel {
+    width: 187px;
+    height: 42px;
+    background-color: rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(19, 115, 235, 1);
+    border-radius: 3px;
+    box-shadow: none;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: #1373EB;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.thankyou{
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.cancel-thankyou {
+    width: 221px !important;
+}
